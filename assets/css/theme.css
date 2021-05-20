@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500&display=swap");
+
+.bg-prim {
+  background-color: #fff;
+}
+
+.bg-sec {
+  background-color: #f9f9f9;
+}
+
+.font-prim {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-sec {
+  font-family: "Poppins", sans-serif;
+}
+
+.color-prim {
+  color: #000;
+}
+
+.color-sec {
+  color: #999999;
+}
