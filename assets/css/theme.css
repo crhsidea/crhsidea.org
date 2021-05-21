@@ -1,25 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500&display=swap");
 
+:root {
+  --primary: #161718;
+  --secondary: #2c2f33;
+  --contrast: #fff;
+  /* todo: punch color needs to be checked */
+  --punch: #37a3f4;
+  --fontprimary: "Montserrat", sans-serif;
+  --fontsecondary: "Poppins", sans-serif;
+}
 .bg-prim {
-  background-color: #fff;
+  background-color: var(--primary);
 }
 
 .bg-sec {
-  background-color: #f9f9f9;
+  background-color: var(--secondary);
 }
 
 .font-prim {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--fontprimary);
 }
 
 .font-sec {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--fontsecondary);
 }
 
 .color-prim {
-  color: #000;
+  color: var(--contrast);
 }
 
 .color-sec {
-  color: #999999;
+  color: var(--punch);
 }
