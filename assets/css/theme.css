@@ -9,6 +9,7 @@
   --fontprimary: "Montserrat", sans-serif;
   --fontsecondary: "Poppins", sans-serif;
 }
+
 .bg-prim {
   background-color: var(--primary);
 }
