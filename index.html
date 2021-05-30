@@ -1,28 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Temporary description" />
-    <!-- todo: make real description -->
-    <!-- todo: add favicon.ico -->
-    <!-- css -->
-    <link rel="stylesheet" href="./assets/css/global.css" />
-    <link rel="stylesheet" href="./assets/css/index.css" />
-    <!-- owlcarousel -->
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
-    <title>CRHS IDEA</title>
-  </head>
 
-  <body>
-    <!-- plugins -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Temporary description" />
+  <!-- todo: make real description -->
+  <!-- todo: add favicon.ico -->
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/css/global.css" />
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <!-- owlcarousel -->
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+  <title>CRHS IDEA</title>
+  <style>
+    .logo {
+      padding-left: 25px;
+      padding-top: 15px;
+      padding-right: 15px;
+      padding-bottom: 25px;
+      float: left;
+    }
+
+    body {
+      background-color: #161718;
+      position: relative;
+    }
+
+    .logotext {
+      position: sticky;
+      height: 17px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 17px;
+      text-align: start;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+      border: none;
+      background: none;
+      float: left;
+      margin-top: 35px;
+      margin-bottom: 25px;
+      border: 0;
+    }
+
+    .homebuttondiv {
+      float: right;
+      padding-top: 30px;
+      padding-right: 25px;
+    }
+
+    .homebutton {
+      position: sticky;
+      height: 25px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+      padding: 0px;
+      border: none;
+      background: none;
+      float: left;
+      margin-left: 30px;
+      margin-bottom: 25px;
+    }
+
+    .homebutton {
+      display: inline-block;
+      position: relative;
+      color: #FFFFFF;
+    }
+
+    .homebutton:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: -5px;
+      left: 0;
+      background-color: #37a3f4;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    .homebutton:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+
+    .joinbox {
+      background-color: #2C2F33;
+      position: relative;
+      text-align: center;
+      padding: 40px;
+      height: fit-content;
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+
+    .navbox {
+      background: none;
+      position: relative;
+    }
+
+    .outer {
+      position: relative;
+      display: grid;
+    }
+
+    .jointext {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 33px;
+      line-height: 40px;
+      letter-spacing: 0.05em;
+      color: #25B8F6;
+      margin-bottom: 40px;
+    }
+
+    .desctext {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+    }
+
+    .joinbutton {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+      background: #2C2F33;
+      font-weight: normal;
+      text-transform: uppercase;
+      transition: all 0.2s ease-in-out;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #FFFFFF;
+      width: 223px;
+      height: 50px;
+      margin-top: 50px;
+    }
+
+    .joinbutton:hover {
+      background: #FFFFFF;
+      color: #2C2F33
+    }
+  </style>
+</head>
+
+<body>
+  <!-- plugins -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <div class="outer">
+    <div class="navbox">
+      <img src="logo.png" alt="Return Home" height="50" class="logo">
+      <button class="logotext"><span>CRHS IDEA</span></button>
+      <div class="homebuttondiv">
+        <button class="homebutton"><span>HOME</span></button>
+        <button class="homebutton"><span>JOIN</span></button>
+        <button class="homebutton"><span>PROJECTS</span></button>
+        <button class="homebutton"><span>MEMBERS</span></button>
+        <button class="homebutton"><span>CONTACT</span></button>
+      </div>
+    </div>
+    <div class="joinbox">
+      <div class="jointext">Joining is Super Easy</div>
+      <div class="desctext">No prior programming experience or application process required. This club is meant to be
+        open for everyone. We’re all here to fulfill our interest and passion for programming while learning new things
+        on the way. Something like that - we can write the statement later. Something like that - we can write the
+        statement later. Something like that - we can write the statement later. Something like that - we can write the
+        statement later.</div>
+      <button class="joinbutton"><span>BECOME A MEMBER</span></button>
+    </div>
+  </div>
+</body>
+
 </html>
