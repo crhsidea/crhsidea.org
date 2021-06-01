@@ -1,0 +1,70 @@
+.swiper-section {
+  position: relative;
+  height: 75vh;
+  width: 100vw;
+  min-height: 600px;
+}
+.swiper-container {
+  height: 100%;
+}
+
+.swiper-nav-wrap {
+  position: absolute;
+  z-index: 99999;
+  bottom: 10%;
+  left: 10%;
+  display: flex;
+  gap: 20px;
+}
+.custom-swiper-button-next,
+.custom-swiper-button-prev {
+  cursor: pointer;
+}
+
+.swiper-nav-svg {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+  background-color: var(--secondary);
+}
+
+.slide-text-wrap {
+  box-sizing: content-box;
+  padding-top: 230px;
+  padding-left: 10%;
+  max-width: 40%;
+}
+
+.swiper-title {
+  font-size: 60px;
+  color: var(--punch);
+  font-family: var(--fontprimary);
+  font-weight: 700;
+  max-width: 500px;
+}
+
+.swiper-paragraph {
+  color: var(--contrast);
+  font-family: var(--fontsecondary);
+  font-weight: 200;
+}
+
+@media screen and (max-width: 639px) {
+  .swiper-title {
+    font-size: 45px;
+  }
+  .swiper-paragraph {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-height: 900px) {
+  .slide-text-wrap {
+    padding-top: 150px;
+  }
+}

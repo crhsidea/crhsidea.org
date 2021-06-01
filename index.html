@@ -10,19 +10,112 @@
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/global.css" />
     <link rel="stylesheet" href="./assets/css/index.css" />
-    <!-- owlcarousel -->
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./assets/css/swiper.css" />
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <title>CRHS IDEA</title>
   </head>
 
   <body>
+    <section class="swiper-section">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide-text-wrap">
+              <h1
+                class="swiper-title"
+                data-swiper-parallax="40%"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-duration="1300"
+              >
+                Some catch phrase.
+              </h1>
+              <p
+                class="swiper-paragraph"
+                data-swiper-parallax="10%"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-duration="1300"
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+                obcaecati cupiditate et dignissimos repellat officia earum quos
+                nesciunt vero perferendis?
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-text-wrap">
+              <h1
+                class="swiper-title"
+                data-swiper-parallax="40%"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-duration="1300"
+              >
+                We do Hackathons.
+              </h1>
+              <p
+                class="swiper-paragraph"
+                data-swiper-parallax="10%"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-duration="1300"
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+                obcaecati cupiditate et dignissimos repellat officia earum quos
+                nesciunt vero perferendis?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-nav-wrap">
+          <div class="custom-swiper-button-prev">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="swiper-nav-svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </div>
+          <div class="custom-swiper-button-next">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="swiper-nav-svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+
+    <!-- custom JS -->
+    <script src="assets/js/swiper.js"></script>
+
     <!-- plugins -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>
 </html>
