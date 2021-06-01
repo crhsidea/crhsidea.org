@@ -1,0 +1,122 @@
+#programs-section {
+  height: 1628px;
+  background-color: var(--primary);
+  overflow: hidden;
+}
+
+.card-container {
+  background-color: #373c49;
+  width: 540px;
+  height: 650px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+#programs-title {
+  color: #37a3f4;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.programs-description {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.programs-description-box {
+  width: 540px;
+  background-color: #181a1c;
+  overflow: hidden;
+  height: 100%;
+}
+
+.programs-box-title {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin-left: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.programs-image {
+  width: 540px;
+  overflow: hidden;
+  display: inline;
+}
+
+.programs-image:hover {
+  width: 560px;
+  opacity: 50%;
+  transition: 0.5s opacity, 0.8s width;
+  overflow: visible;
+}
+
+#programs-grid-row1-page1 {
+  display: grid;
+  grid-template-columns: repeat(3, 540px);
+  gap: 10px;
+  width: 95%;
+  margin: auto;
+  justify-content: center;
+  margin-top: 70px;
+  transition: opacity 250ms;
+}
+
+#programs-grid-row2-page1 {
+  display: grid;
+  grid-template-columns: repeat(3, 540px);
+  gap: 10px;
+  width: 95%;
+  margin: auto;
+  justify-content: center;
+  margin-top: 10px;
+  transition: opacity 250ms;
+}
+
+#programs-grid-row1-page2 {
+  display: none;
+  grid-template-columns: repeat(3, 540px);
+  gap: 10px;
+  width: 95%;
+  margin: auto;
+  justify-content: center;
+  margin-top: 70px;
+  transition: opacity 250ms;
+  opacity: 0;
+}
+
+#programs-grid-row2-page2 {
+  display: none;
+  grid-template-columns: repeat(3, 540px);
+  gap: 10px;
+  width: 95%;
+  margin: auto;
+  justify-content: center;
+  margin-top: 10px;
+  transition: opacity 250ms;
+  opacity: 0;
+}
+
+#see-more-button {
+  overflow: hidden;
+  justify-content: center;
+  margin: auto;
+  width: 150px;
+  margin-top: 50px;
+}
+
+#text-see-more-button {
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+  color: #007df0;
+  overflow: hidden;
+  justify-content: center;
+}
+
+#text-see-more-button:hover {
+  opacity: 50%;
+}
