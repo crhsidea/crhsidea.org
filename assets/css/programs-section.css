@@ -16,6 +16,7 @@
 #programs-title {
   color: var(--punch);
   font-family: var(--fontprimary);
+  font-weight: 600;
   font-size: 33px;
   text-align: center;
   margin-top: 50px;
