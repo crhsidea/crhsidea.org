@@ -1,5 +1,61 @@
 .footer {
   width: 100vw;
-  height: 180px;
-  background-color: var(--secondary);
+  height: 315px;
+  background-color: rgb(14, 14, 14);
+  overflow: hidden;
+  color: #fff;
+  font-family: var(--fontsecondary);
+}
+
+.footer-inner {
+  width: 80%;
+  margin: auto;
+  height: auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.footer-title {
+  display: inline;
+}
+
+.footer-sub {
+  font-size: 11px;
+  color: rgb(184, 184, 184);
+  width: 100px;
+  font-weight: normal;
+}
+
+.footer-sub2 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.footer-nav {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer-link {
+  font-size: 11px;
+  color: rgb(184, 184, 184);
+  width: 100px;
+  font-weight: normal;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.footer-disc-logo {
+  margin-top: 15px;
+  width: 30px;
+  height: 30px;
+  filter: invert(100%);
 }
