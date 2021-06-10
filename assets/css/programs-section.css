@@ -16,7 +16,6 @@
 #programs-title {
   color: var(--punch);
   font-family: var(--fontprimary);
-  font-weight: 600;
   font-size: 33px;
   text-align: center;
   margin-top: 50px;
@@ -57,6 +56,9 @@
 }
 
 .programs-image:hover {
+  width: 560px;
+  opacity: 50%;
+  transition: 0.5s opacity, 0.8s width;
   overflow: visible;
 }
 
@@ -81,6 +83,8 @@
   width: 95%;
   margin: auto;
   justify-content: center;
+  margin-top: 70px;
+  transition: opacity 250ms;
   opacity: 0;
 }
 
