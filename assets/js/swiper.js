@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  new Swiper(".swiper-container", {
+  new Swiper("#swiper-main", {
     spaceBetween: -10,
     speed: 825,
     parallax: true,

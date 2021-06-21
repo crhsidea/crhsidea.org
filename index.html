@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/css/programs-section.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="./assets/css/nav.css" />
+    <link rel="stylesheet" href="/assets/css/projects.css" />
     <!-- Swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link
@@ -68,7 +69,7 @@
     </div>
     <!-- swiper -->
     <section class="swiper-section">
-      <div class="swiper-container">
+      <div class="swiper-container" id="swiper-main">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="slide-text-wrap">
@@ -169,223 +170,123 @@
       </div>
     </div>
 
-    <section id="programs-section">
-      <h1 id="programs-title">Projects</h1>
-      <!-- Grid Page 1-->
-      <div id="programs-grid-page1">
-        <!-- Card 1 -->
-        <div class="card-container">
-          <a href="https://devpost.com/software/appname-ybfhks">
-            <img
-              class="programs-image"
-              src="./images/TidePool.jpg"
-              alt="No image available"
-            />
-          </a>
-          <div class="programs-description-box">
-            <h1 class="programs-box-title">TidePool</h1>
-            <p class="programs-description">
-              Description.Description.Description.Description.
-              Description.Description.Description.Description.
-            </p>
+    <section id="projects">
+      <div class="projects-scrollbar-container">
+        <div class="projects-inner">
+          <div class="swiper-container" id="swiper-projects">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide projects-card">
+                <img class="project-img" src="/images/Greenway.jpg" alt="" />
+                <h1 class="project-title">GREENWAY</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img class="project-img" src="/images/TidePool.jpg" alt="" />
+                <h1 class="project-title">TIDEPOOL</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img class="project-img" src="/images/CapsuleMap.jpg" alt="" />
+                <h1 class="project-title">CAPSULEMAP</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img class="project-img" src="/images/MemoryNotes.jpg" alt="" />
+                <h1 class="project-title">MEMORYNOTES</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img class="project-img" src="/images/Cultivate.jpg" alt="" />
+                <h1 class="project-title">CULTIVATE</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img class="project-img" src="/images/ProFit.jpg" alt="" />
+                <h1 class="project-title">PROFIT</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img class="project-img" src="/images/BotDilemma.jpg" alt="" />
+                <h1 class="project-title">BOTDILEMMA</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img class="project-img" src="/images/SkillQuest.jpg" alt="" />
+                <h1 class="project-title">SKILLQUEST</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img
+                  class="project-img"
+                  src="/images/Climate Change Central.jpg"
+                  alt=""
+                />
+                <h1 class="project-title">CLIMATE CHANGE CENTRAL</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img
+                  class="project-img"
+                  src="/images/Open-Sourced Olafs Pod Site.jpg"
+                  alt=""
+                />
+                <h1 class="project-title">OPEN-SOURCED OLAFS POD SITE</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img class="project-img" src="/images/HealthID.jpg" alt="" />
+                <h1 class="project-title">HEALTHID</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img
+                  class="project-img"
+                  src="/images/Trash on the Map.jpg"
+                  alt=""
+                />
+                <h1 class="project-title">TRASH ON THE MAP</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <!-- Card 2 -->
-        <div class="card-container">
-          <a href="https://devpost.com/software/capsulemap">
-            <img
-              class="programs-image"
-              src="./images/CapsuleMap.jpg"
-              alt="No image available"
-            />
-          </a>
-          <div class="programs-description-box">
-            <h1 class="programs-box-title">CapsuleMap</h1>
-            <p class="programs-description">
-              Description.Description.Description.Description.
-              Description.Description.Description.Description.
-            </p>
-          </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="card-container">
-          <a href="https://devpost.com/software/greenway">
-            <img
-              class="programs-image"
-              src="./images/Greenway.jpg"
-              alt="No image available"
-            />
-          </a>
-          <div class="programs-description-box">
-            <h1 class="programs-box-title">Greenway</h1>
-            <p class="programs-description">
-              Description.Description.Description.Description.
-              Description.Description.Description.Description.
-            </p>
-          </div>
-        </div>
-        <!-- Card 4 -->
-        <div class="card-container">
-          <a href="https://devpost.com/software/memory-notes">
-            <img
-              class="programs-image"
-              src="./images/MemoryNotes.jpg"
-              alt="No image available"
-            />
-          </a>
-          <div class="programs-description-box">
-            <h1 class="programs-box-title">Memory Notes</h1>
-            <p class="programs-description">
-              Description.Description.Description.Description.
-              Description.Description.Description.Description.
-            </p>
-          </div>
-        </div>
-        <!-- Card 5 -->
-        <div class="card-container">
-          <a href="https://devpost.com/software/farming_app">
-            <img
-              class="programs-image"
-              src="./images/Cultivate.jpg"
-              alt="No image available"
-            />
-          </a>
-          <div class="programs-description-box">
-            <h1 class="programs-box-title">Cultivate</h1>
-            <p class="programs-description">
-              Description.Description.Description.Description.
-              Description.Description.Description.Description.
-            </p>
-          </div>
-        </div>
-        <!-- Card 6 -->
-        <div class="card-container">
-          <a href="https://devpost.com/software/profit-fw5oyn">
-            <img
-              class="programs-image"
-              src="./images/ProFit.jpg"
-              alt="No image available"
-            />
-          </a>
-          <div class="programs-description-box">
-            <h1 class="programs-box-title">ProFit</h1>
-            <p class="programs-description">
-              Description.Description.Description.Description.
-              Description.Description.Description.Description.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- Grid Page 2 -->
-      <div id="programs-grid-page2">
-        <!-- Card 7 -->
-        <div class="card-container">
-          <a href="https://devpost.com/software/socialchatbotapp">
-            <img
-              class="programs-image"
-              src="./images/BotDilemma.jpg"
-              alt="No image available"
-            />
-          </a>
-          <div class="programs-description-box">
-            <h1 class="programs-box-title">Bot Dilemma</h1>
-            <p class="programs-description">
-              Description.Description.Description.Description.
-              Description.Description.Description.Description.
-            </p>
-          </div>
-        </div>
-        <!-- Card 8 -->
-        <div class="card-container">
-          <a href="https://devpost.com/software/skillquest">
-            <img
-              class="programs-image"
-              src="./images/SkillQuest.jpg"
-              alt="No image available"
-            />
-          </a>
-          <div class="programs-description-box">
-            <h1 class="programs-box-title">SkillQuest</h1>
-            <p class="programs-description">
-              Description.Description.Description.Description.
-              Description.Description.Description.Description.
-            </p>
-          </div>
-        </div>
-        <!-- Card 9 -->
-        <div class="card-container">
-          <a href="https://devpost.com/software/climate-change-central">
-            <img
-              class="programs-image"
-              src="./images/Climate Change Central.jpg"
-              alt="No image available"
-            />
-          </a>
-          <div class="programs-description-box">
-            <h1 class="programs-box-title">Climate Change Central</h1>
-            <p class="programs-description">
-              Description.Description.Description.Description.
-              Description.Description.Description.Description.
-            </p>
-          </div>
-        </div>
-        <!-- Card 10 -->
-        <div class="card-container">
-          <a
-            href="https://devpost.com/software/pod-2-1-2-open-sourced-olafs-site"
-          >
-            <img
-              class="programs-image"
-              src="./images/Open-Sourced Olafs Pod Site.jpg"
-              alt="No image available"
-            />
-          </a>
-          <div class="programs-description-box">
-            <h1 class="programs-box-title">Open-Sourced Olafs Pod Site</h1>
-            <p class="programs-description">
-              Description.Description.Description.Description.
-              Description.Description.Description.Description.
-            </p>
-          </div>
-        </div>
-        <!-- Card 11 -->
-        <div class="card-container">
-          <a href="https://devpost.com/software/healthid">
-            <img
-              class="programs-image"
-              src="./images/HealthID.jpg"
-              alt="No image available"
-            />
-          </a>
-          <div class="programs-description-box">
-            <h1 class="programs-box-title">HealthID</h1>
-            <p class="programs-description">
-              Description.Description.Description.Description.
-              Description.Description.Description.Description.
-            </p>
-          </div>
-        </div>
-        <!-- Card 12 -->
-        <div class="card-container">
-          <a href="https://devpost.com/software/green-quest">
-            <img
-              class="programs-image"
-              src="./images/Trash on the Map.jpg"
-              alt="No image available"
-            />
-          </a>
-          <div class="programs-description-box">
-            <h1 class="programs-box-title">Trash on the Map</h1>
-            <p class="programs-description">
-              Description.Description.Description.Description.
-              Description.Description.Description.Description.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- See More Button -->
-      <div id="see-more-button" onclick="show_hide()">
-        <h4 id="text-see-more-button">See more > ></h4>
+        <div id="projects-swiper-scrollbar"></div>
       </div>
     </section>
 
@@ -426,6 +327,7 @@
 
     <!-- custom JS -->
     <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/projectsSwiper.js"></script>
     <script src="assets/js/programs-section.js"></script>
     <script src="assets/js/nav.js"></script>
 
