@@ -18,6 +18,20 @@ document.addEventListener("DOMContentLoaded", () => {
         scrollThumb.style.backgroundColor = "#fff";
       },
     },
+    breakpoints: {
+      200: {
+        slidesPerView: 1,
+      },
+      700: {
+        slidesPerView: 2,
+      },
+      1000: {
+        slidesPerView: 3,
+      },
+      1536: {
+        slidesPerView: 4,
+      },
+    },
   });
 
   const projectCards = document.querySelectorAll(".projects-card");
