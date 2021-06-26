@@ -11,62 +11,59 @@
     <link rel="stylesheet" href="./assets/css/global.css" />
     <link rel="stylesheet" href="./assets/css/index.css" />
     <link rel="stylesheet" href="./assets/css/hero-swiper.css" />
-    <link rel="stylesheet" href="./assets/css/programs-section.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="./assets/css/nav.css" />
     <link rel="stylesheet" href="/assets/css/projects-swiper.css" />
+    <link rel="stylesheet" href="./assets/css/join-section.css" />
     <!-- Swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="./assets/css/join-section.css" />
     <title>CRHS IDEA</title>
   </head>
 
   <body>
-    <div class="outer">
-      <nav class="navbox">
-        <div class="logo-wrap">
-          <img src="images/logo1.png" alt="Return Home" class="logo" />
-          <button class="logotext"><span>CRHS IDEA</span></button>
-        </div>
-        <div class="homebuttondiv">
-          <button class="homebutton">
-            <a href="">HOME</a>
-          </button>
-          <button class="homebutton">
-            <a href="">JOIN</a>
-          </button>
-          <button class="homebutton">
-            <a href="">PROJECTS</a>
-          </button>
-          <button class="homebutton">
-            <a href="">MEMBERS</a>
-          </button>
-          <button class="homebutton">
-            <a href="">CONTACT</a>
-          </button>
-        </div>
-        <div class="mobile-nav nav-hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="mobile-btn"
-            fill="white"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16m-7 6h7"
-            />
-          </svg>
-        </div>
-      </nav>
+    <div class="nav-placeholder"></div>
+    <div class="mobile-top-logo nav-hidden">
+      <img src="static/images/logo1.png" alt="Home" class="mobile-logo" />
     </div>
+    <div class="mobile-bottom-nav nav-hidden">
+      <ul class="mobile-list">
+        <img src="/static/svgs/home.svg" alt="home" class="mobile-icon" />
+        <img src="/static/svgs/clipboard.svg" alt="home" class="mobile-icon" />
+        <img src="/static/svgs/checkbadge.svg" alt="home" class="mobile-icon" />
+        <img src="/static/svgs/mail.svg" alt="home" class="mobile-icon" />
+      </ul>
+    </div>
+    <div class="nav-container" style="height: 100px">
+      <div class="nav-content">
+        <div class="logo-wrap">
+          <img src="static/images/logo1.png" alt="Return Home" class="logo" />
+          <h1 class="logotext">CRHS IDEA</h1>
+        </div>
+        <nav class="nav-links">
+          <div class="nav-btns">
+            <a href="">HOME</a>
+          </div>
+          <div class="nav-btns">
+            <a href="">JOIN</a>
+          </div>
+          <div class="nav-btns">
+            <a href="">PROJECTS</a>
+          </div>
+          <div class="nav-btns">
+            <a href="">MEMBERS</a>
+          </div>
+          <div class="nav-btns">
+            <a href="">CONTACT</a>
+          </div>
+        </nav>
+      </div>
+      <div class="nav-backfilter"></div>
+    </div>
+
     <!-- swiper -->
     <section class="swiper-section">
       <div class="swiper-container" id="swiper-main">
@@ -171,12 +168,17 @@
     </div>
 
     <section id="projects">
+      <h1 class="projects-section-title">Our Projects</h1>
       <div class="projects-scrollbar-container">
         <div class="projects-inner">
           <div class="swiper-container" id="swiper-projects">
             <div class="swiper-wrapper">
               <div class="swiper-slide projects-card">
-                <img class="project-img" src="/images/Greenway.jpg" alt="" />
+                <img
+                  class="project-img"
+                  src="/static/images/Greenway.jpg"
+                  alt=""
+                />
                 <h1 class="project-title">GREENWAY</h1>
                 <p class="project-description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -184,7 +186,11 @@
                 </p>
               </div>
               <div class="swiper-slide projects-card">
-                <img class="project-img" src="/images/TidePool.jpg" alt="" />
+                <img
+                  class="project-img"
+                  src="/static/images/TidePool.jpg"
+                  alt=""
+                />
                 <h1 class="project-title">TIDEPOOL</h1>
                 <p class="project-description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -192,7 +198,11 @@
                 </p>
               </div>
               <div class="swiper-slide projects-card">
-                <img class="project-img" src="/images/CapsuleMap.jpg" alt="" />
+                <img
+                  class="project-img"
+                  src="/static/images/CapsuleMap.jpg"
+                  alt=""
+                />
                 <h1 class="project-title">CAPSULEMAP</h1>
                 <p class="project-description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -200,7 +210,11 @@
                 </p>
               </div>
               <div class="swiper-slide projects-card">
-                <img class="project-img" src="/images/MemoryNotes.jpg" alt="" />
+                <img
+                  class="project-img"
+                  src="/static/images/MemoryNotes.jpg"
+                  alt=""
+                />
                 <h1 class="project-title">MEMORYNOTES</h1>
                 <p class="project-description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -208,7 +222,11 @@
                 </p>
               </div>
               <div class="swiper-slide projects-card">
-                <img class="project-img" src="/images/Cultivate.jpg" alt="" />
+                <img
+                  class="project-img"
+                  src="/static/images/Cultivate.jpg"
+                  alt=""
+                />
                 <h1 class="project-title">CULTIVATE</h1>
                 <p class="project-description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -216,7 +234,11 @@
                 </p>
               </div>
               <div class="swiper-slide projects-card">
-                <img class="project-img" src="/images/ProFit.jpg" alt="" />
+                <img
+                  class="project-img"
+                  src="/static/images/ProFit.jpg"
+                  alt=""
+                />
                 <h1 class="project-title">PROFIT</h1>
                 <p class="project-description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -224,7 +246,11 @@
                 </p>
               </div>
               <div class="swiper-slide projects-card">
-                <img class="project-img" src="/images/BotDilemma.jpg" alt="" />
+                <img
+                  class="project-img"
+                  src="/static/images/BotDilemma.jpg"
+                  alt=""
+                />
                 <h1 class="project-title">BOTDILEMMA</h1>
                 <p class="project-description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -232,7 +258,11 @@
                 </p>
               </div>
               <div class="swiper-slide projects-card">
-                <img class="project-img" src="/images/SkillQuest.jpg" alt="" />
+                <img
+                  class="project-img"
+                  src="/static/images/SkillQuest.jpg"
+                  alt=""
+                />
                 <h1 class="project-title">SKILLQUEST</h1>
                 <p class="project-description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -242,7 +272,7 @@
               <div class="swiper-slide projects-card">
                 <img
                   class="project-img"
-                  src="/images/Climate Change Central.jpg"
+                  src="/static/images/Climate Change Central.jpg"
                   alt=""
                 />
                 <h1 class="project-title">CLIMATE CHANGE CENTRAL</h1>
@@ -254,7 +284,7 @@
               <div class="swiper-slide projects-card">
                 <img
                   class="project-img"
-                  src="/images/Open-Sourced Olafs Pod Site.jpg"
+                  src="/static/images/Open-Sourced Olafs Pod Site.jpg"
                   alt=""
                 />
                 <h1 class="project-title">OPEN-SOURCED OLAFS POD SITE</h1>
@@ -264,7 +294,11 @@
                 </p>
               </div>
               <div class="swiper-slide projects-card">
-                <img class="project-img" src="/images/HealthID.jpg" alt="" />
+                <img
+                  class="project-img"
+                  src="/static/images/HealthID.jpg"
+                  alt=""
+                />
                 <h1 class="project-title">HEALTHID</h1>
                 <p class="project-description">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -274,7 +308,7 @@
               <div class="swiper-slide projects-card">
                 <img
                   class="project-img"
-                  src="/images/Trash on the Map.jpg"
+                  src="/static/images/Trash on the Map.jpg"
                   alt=""
                 />
                 <h1 class="project-title">TRASH ON THE MAP</h1>
@@ -313,7 +347,7 @@
           <a href="https://discord.gg/U6qkBz9xZS" target="_blank">
             <img
               class="footer-disc-logo"
-              src="/images/discord-logo.svg"
+              src="/static/svgs/discord-logo.svg"
               alt="discord"
               srcset=""
             />

@@ -24,6 +24,12 @@ body::-webkit-scrollbar-thumb {
   background-color: #fff;
 }
 
+@media screen and (max-width: 780px) {
+  body::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
 ul,
 h1,
 h2,

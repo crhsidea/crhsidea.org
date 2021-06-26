@@ -7,6 +7,17 @@
   align-items: center;
 }
 
+.projects-section-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: var(--punch);
+  margin-bottom: 40px;
+}
+
 .projects-scrollbar-container {
   width: 95%;
   position: relative;
