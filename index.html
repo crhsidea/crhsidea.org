@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./assets/css/nav.css" />
     <link rel="stylesheet" href="/assets/css/projects-swiper.css" />
     <link rel="stylesheet" href="./assets/css/join-section.css" />
+    <link rel="stylesheet" href="/assets/css/whatwedo.css" />
     <!-- Swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link
@@ -68,7 +69,7 @@
     <section class="swiper-section">
       <div class="swiper-container" id="swiper-main">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
+          <div class="swiper-slide" id="slide-1">
             <div class="slide-text-wrap">
               <h1
                 class="swiper-title"
@@ -76,7 +77,7 @@
                 data-swiper-parallax-opacity="0"
                 data-swiper-parallax-duration="1300"
               >
-                Some catch phrase.
+                What is IDEA?
               </h1>
               <p
                 class="swiper-paragraph"
@@ -90,7 +91,7 @@
               </p>
             </div>
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide" id="slide-2">
             <div class="slide-text-wrap">
               <h1
                 class="swiper-title"
@@ -98,7 +99,7 @@
                 data-swiper-parallax-opacity="0"
                 data-swiper-parallax-duration="1300"
               >
-                We do Hackathons.
+                Our Mission.
               </h1>
               <p
                 class="swiper-paragraph"
@@ -151,21 +152,62 @@
       </div>
     </section>
 
-    <div class="joinbox">
-      <div class="joinbox-inner">
-        <div class="jointext">Joining is Super Easy</div>
-        <div class="desctext">
-          No prior programming experience or application process required. This
-          club is meant to be open for everyone. We’re all here to fulfill our
-          interest and passion for programming while learning new things on the
-          way. Something like that - we can write the statement later. Something
-          like that - we can write the statement later. Something like that - we
-          can write the statement later. Something like that - we can write the
-          statement later.
+    <section class="whatwedo-container">
+      <div class="whatwedo-inner">
+        <h1 class="whatwedo-title">What We Do</h1>
+        <div class="whatwedo-subsec">
+          <div>
+            <h3>BEGINNER LEARNING</h3>
+            <p>
+              We work with anyone who wants to get into coding to quickly get
+              them on the right track. Our teaching is fast-paced but fun.
+            </p>
+          </div>
+          <img
+            src="/static/test/Screen-Shot-2020-07-02-at-1.41.18-PM-orvzvrogmveb0s4k5zxrsi6c4vto0r0yl1sspnkqv4.png"
+            alt=""
+          />
         </div>
+        <div class="whatwedo-subsec">
+          <img
+            src="/static/test/Screen-Shot-2020-07-02-at-1.41.18-PM-orvzvrogmveb0s4k5zxrsi6c4vto0r0yl1sspnkqv4.png"
+            alt=""
+          />
+          <div>
+            <h3>COMPETITIVE PROGRAMMING</h3>
+            <p>
+              We participate in a variety of competitive programming contests
+              such as HP CodeWars or the US Computing Olympiad and prepare
+              students for these competitions.
+            </p>
+          </div>
+        </div>
+        <div class="whatwedo-subsec">
+          <div>
+            <h3>SOFTWARE DEVELOPMENT</h3>
+            <p>
+              We also have a focus on software development, preparing students
+              for real-world jobs. Students can learn mobile app development,
+              video game development, and even Artificial Intelligence.
+            </p>
+          </div>
+          <img
+            src="/static/test/Screen-Shot-2020-07-02-at-1.41.18-PM-orvzvrogmveb0s4k5zxrsi6c4vto0r0yl1sspnkqv4.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="joinbox">
+      <div class="joinbox-inner">
+        <div class="jointext">No Programming Experience Required.</div>
+        <div class="jointext">No Fee.</div>
+        <div class="jointext">Just a Survey.</div>
+
         <button class="joinbutton"><span>BECOME A MEMBER</span></button>
       </div>
-    </div>
+    </section>
 
     <section id="projects">
       <h1 class="projects-section-title">Our Projects</h1>
@@ -364,7 +406,7 @@
     <script src="assets/js/heroSwiper.js"></script>
     <script src="assets/js/nav.js"></script>
 
-    <!-- plugins -->
+    <!-- cdns -->
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>

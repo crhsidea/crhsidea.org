@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     on: {
       afterInit: () => {
         const scrollThumb = document.querySelector(".swiper-scrollbar-drag");
-        scrollThumb.style.backgroundColor = "#fff";
+        scrollThumb.style.backgroundColor = "var(--punch)";
       },
     },
     breakpoints: {

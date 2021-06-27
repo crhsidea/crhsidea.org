@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500&display=swap");
 
 :root {
-  --primary: #060608;
-  --secondary: #0a0a19;
-  --punch: #737cff;
-  --contrast: #fff;
+  /* --primary: #1d1d1d; */
+  /* --secondary: #0a0a19; */
+  --primary: #ffffff;
+  --secondary: #9ca2f7;
+  --punch: #2283f1;
+  --contrast: rgb(0, 0, 0);
   --fontprimary: "Montserrat", sans-serif;
   --fontsecondary: "Poppins", sans-serif;
 }
