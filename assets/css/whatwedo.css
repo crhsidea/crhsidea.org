@@ -12,12 +12,12 @@
   height: 100%;
   top: 0;
   left: 0;
-  /* background-image: url("/static/test/dsBuffer.jpg"); */
+  background-image: url("/static/test/dsBuffer.jpg");
   background-color: var(--primary);
   background-position: left center;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .whatwedo-inner {
