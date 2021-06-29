@@ -22,7 +22,7 @@
   color: #fff;
   background-color: transparent;
   display: grid;
-  grid-template-columns: 226px auto;
+  grid-template-columns: auto auto;
 }
 .nav-backfilter {
   width: 100vw;
@@ -34,11 +34,11 @@
 }
 
 .logo-wrap {
-  width: 220px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
+  justify-self: start;
   margin-left: 2%;
 }
 
