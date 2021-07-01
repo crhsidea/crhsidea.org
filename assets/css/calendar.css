@@ -1,0 +1,29 @@
+#top-line{
+    border-image: linear-gradient(45deg,rgb(21, 243, 232), blue, rgb(21, 243, 232)) 10;
+}
+
+@media screen and (max-width: 779px){
+  #top-line {
+    display: none
+  }
+}
+
+#calendar-frame{
+    width: 96%;
+    height: 95%;
+    margin: auto;
+    margin-top: 1.6%;
+}
+
+#calendar-section{
+    height: 870px;
+}
+
+#calendar{
+    width: 100%;
+    height: 100%;
+}
+
+#top-line{
+    color: black;
+}
