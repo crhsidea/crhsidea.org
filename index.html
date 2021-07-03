@@ -1,392 +1,494 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Temporary description" />
+    <!-- todo: make real description -->
+    <!-- todo: add favicon.ico -->
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/hero-swiper.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/nav.css" />
+    <link rel="stylesheet" href="/assets/css/projects-swiper.css" />
+    <link rel="stylesheet" href="./assets/css/join-section.css" />
+    <link rel="stylesheet" href="/assets/css/whatwedo.css" />
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>CRHS IDEA</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Temporary description" />
-  <!-- todo: make real description -->
-  <!-- todo: add favicon.ico -->
-  <!-- css -->
-  <link rel="stylesheet" href="./assets/css/global.css" />
-  <link rel="stylesheet" href="./assets/css/index.css" />
-  <link rel="stylesheet" href="./assets/css/hero-swiper.css" />
-  <link rel="stylesheet" href="./assets/css/footer.css" />
-  <link rel="stylesheet" href="./assets/css/nav.css" />
-  <link rel="stylesheet" href="/assets/css/project-section.css" />
-  <link rel="stylesheet" href="./assets/css/join-section.css" />
-  <link rel="stylesheet" href="/assets/css/whatwedo.css" />
-  <!-- Swiper -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <title>CRHS IDEA</title>
-</head>
-
-<body>
-  <div class="nav-placeholder"></div>
-  <div class="mobile-top-logo nav-hidden">
-    <img src="static/images/logo1.png" alt="Home" class="mobile-logo" />
-  </div>
-  <div class="mobile-bottom-nav nav-hidden">
-    <ul class="mobile-list">
-      <img src="/static/svgs/home.svg" alt="home" class="mobile-icon" />
-      <img src="/static/svgs/clipboard.svg" alt="home" class="mobile-icon" />
-      <img src="/static/svgs/checkbadge.svg" alt="home" class="mobile-icon" />
-      <img src="/static/svgs/mail.svg" alt="home" class="mobile-icon" />
-    </ul>
-  </div>
-  <div class="nav-container" style="height: 100px">
-    <div class="nav-content">
-      <div class="logo-wrap">
-        <img src="static/images/logo1.png" alt="Return Home" class="logo" />
-        <h1 class="logotext">CRHS IDEA</h1>
-      </div>
-      <nav class="nav-links">
-        <div class="nav-btns">
-          <a href="/">HOME</a>
-        </div>
-        <div class="nav-btns">
-          <a href="">JOIN</a>
-        </div>
-        <div class="nav-btns">
-          <a href="">PROJECTS</a>
-        </div>
-        <div class="nav-btns">
-          <a href="/members.html">MEMBERS</a>
-        </div>
-        <div class="nav-btns">
-          <a href="">CONTACT</a>
-        </div>
-      </nav>
+  <body>
+    <div class="nav-placeholder"></div>
+    <div class="mobile-top-logo nav-hidden">
+      <img src="static/images/logo1.png" alt="Home" class="mobile-logo" />
     </div>
-    <div class="nav-backfilter"></div>
-  </div>
-
-  <!-- swiper -->
-  <section class="swiper-section">
-    <div class="swiper-container" id="swiper-main">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide" id="slide-1">
-          <div class="slide-text-wrap">
-            <h1 class="swiper-title" data-swiper-parallax="40%" data-swiper-parallax-opacity="0"
-              data-swiper-parallax-duration="1300">
-              What is IDEA?
-            </h1>
-            <p class="swiper-paragraph" data-swiper-parallax="10%" data-swiper-parallax-opacity="0"
-              data-swiper-parallax-duration="1300">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
-              obcaecati cupiditate et dignissimos repellat officia earum quos
-              nesciunt vero perferendis?
-            </p>
+    <div class="mobile-bottom-nav nav-hidden">
+      <ul class="mobile-list">
+        <img src="/static/svgs/home.svg" alt="home" class="mobile-icon" />
+        <img src="/static/svgs/clipboard.svg" alt="home" class="mobile-icon" />
+        <img src="/static/svgs/checkbadge.svg" alt="home" class="mobile-icon" />
+        <img src="/static/svgs/mail.svg" alt="home" class="mobile-icon" />
+      </ul>
+    </div>
+    <div class="nav-container" style="height: 100px">
+      <div class="nav-content">
+        <div class="logo-wrap">
+          <img src="static/images/logo1.png" alt="Return Home" class="logo" />
+          <h1 class="logotext">CRHS IDEA</h1>
+        </div>
+        <nav class="nav-links">
+          <div class="nav-btns">
+            <a href="/">HOME</a>
           </div>
-        </div>
-        <div class="swiper-slide" id="slide-2">
-          <div class="slide-text-wrap">
-            <h1 class="swiper-title" data-swiper-parallax="40%" data-swiper-parallax-opacity="0"
-              data-swiper-parallax-duration="1300">
-              Our Mission.
-            </h1>
-            <p class="swiper-paragraph" data-swiper-parallax="10%" data-swiper-parallax-opacity="0"
-              data-swiper-parallax-duration="1300">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
-              obcaecati cupiditate et dignissimos repellat officia earum quos
-              nesciunt vero perferendis?
-            </p>
+          <div class="nav-btns">
+            <a href="">JOIN</a>
           </div>
-        </div>
-      </div>
-
-      <div class="swiper-nav-wrap">
-        <div class="custom-swiper-button-prev">
-          <svg xmlns="http://www.w3.org/2000/svg" class="swiper-nav-svg" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-          </svg>
-        </div>
-        <div class="custom-swiper-button-next">
-          <svg xmlns="http://www.w3.org/2000/svg" class="swiper-nav-svg" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-          </svg>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="whatwedo-container">
-    <div class="whatwedo-inner">
-      <h1 class="whatwedo-title">What We Do</h1>
-      <div class="whatwedo-subsec">
-        <div>
-          <h3>BEGINNER LEARNING</h3>
-          <p>
-            We work with anyone who wants to get into coding to quickly get
-            them on the right track. Our teaching is fast-paced but fun.
-          </p>
-        </div>
-        <img src="/static/test/Screen-Shot-2020-07-02-at-1.41.18-PM-orvzvrogmveb0s4k5zxrsi6c4vto0r0yl1sspnkqv4.png"
-          alt="" />
-      </div>
-      <div class="whatwedo-subsec reverse">
-        <img src="/static/test/Screen-Shot-2020-07-02-at-1.41.18-PM-orvzvrogmveb0s4k5zxrsi6c4vto0r0yl1sspnkqv4.png"
-          alt="" />
-        <div>
-          <h3>COMPETITIVE PROGRAMMING</h3>
-          <p>
-            We participate in a variety of competitive programming contests
-            such as HP CodeWars or the US Computing Olympiad and prepare
-            students for these competitions.
-          </p>
-        </div>
-      </div>
-      <div class="whatwedo-subsec">
-        <div>
-          <h3>SOFTWARE DEVELOPMENT</h3>
-          <p>
-            We also have a focus on software development, preparing students
-            for real-world jobs. Students can learn mobile app development,
-            video game development, and even Artificial Intelligence.
-          </p>
-        </div>
-        <img src="/static/test/Screen-Shot-2020-07-02-at-1.41.18-PM-orvzvrogmveb0s4k5zxrsi6c4vto0r0yl1sspnkqv4.png"
-          alt="" />
-      </div>
-    </div>
-  </section>
-
-  <div class="joinbox" id="join">
-    <div class="joinbox-inner">
-      <div class="jointext">Joining is Super Easy</div>
-      <div class="desctext">That's great, but what if I...</div>
-      <div class="whatifdiv">
-        <div class="whatif">
-          <span>don't know programming</span>
-          <div class="whatifline"></div>
-          <h1 class="whatifh1">
-            I’ll admit, I’m sort of amazed we haven’t covered this at the HMS
-            Jalopiesnick before, because this is precisely the kind of
-            automotive idiocy that gets all of my delight glands nice and
-            excorpulated. The car I want to tell you about isn’t a
-            particularly interesting car, but it was closely related to a
-            good, honest general-use car, the 2002 to 2004 Toyota Matrix. You
-            may also recall that the Toyota Corolla-platform’d Matrix was also
-            sold by GM, who built (at the joint Toyota-GM NUMMI plant) a
-            Pontiac-branded version called the Vibe. But did you know these
-            twins were actually triplets? The often-forgotten sibling is
-            called the Toyota Voltz, and it needs some explanation.
-          </h1>
-        </div>
-        <div class="whatif">
-          <span>other</span>
-          <div class="whatifline"></div>
-          <h1 class="whatifh1">
-            Despite the confusing name, the Voltz was not electric, well, no
-            more so than any other car that has spark plugs and a radio. The
-            Voltz was just like the Pontiac Vibe, a slightly re-styled and
-            very re-badged Toyota Matrix. Now I bet you’re already starting to
-            notice something weird going on here. The re-badged Toyota
-            was...badged as a...Toyota?
-          </h1>
-        </div>
-        <div class="whatif">
-          <span>quirks</span>
-          <div class="whatifline"></div>
-          <h1 class="whatifh1">
-            Yes, yes it was. And, even better, this re-badged Toyota was
-            actually a re-badge of the Pontiac, which was a re-badge of a
-            Toyota. I’ll give you a moment to mop up the brain-splatter from
-            your shirt and immediate area. For some deeply confusing reasons,
-            Toyota didn’t want to sell the Toyota Matrix in Japan, but they
-            were fine selling the mechanically-identical but re-styled Pontiac
-            Vibe there, only they couldn’t really sell it under the Pontiac
-            name there, since, you know, Toyota isn’t Pontiac, so they
-            re-badged the Vibe as the Toyota Voltz.
-          </h1>
-        </div>
-        <div class="whatif">
-          <span>and</span>
-          <div class="whatifline"></div>
-          <h1 class="whatifh1">
-            They didn’t change anything about the Vibe’s styling at all, so
-            all of the GM-designed body panels, even the Pontiac’s signature
-            split grille, remained. Hell, even the shape of the Pontiac logo
-            remained, just replaced with a similar Isosceles-triangle-shaped
-            badge, but this time a “V” for “Voltz” and definitely not “Vibe.”
-            Weirdly, this is the second time I can think of the Pontiac logo
-            shaped being replaced with another badge on an imported car sold
-            as a Pontiac. The Voltz was sold at Toyota’s Netz
-            dealerships/stores, part of Toyota’s kind of baffling
-            differentiation of models into different types of dealership
-            outlets that I think target different market segments, with Netz
-            seeming to skew younger. You can see the Netz branding in this
-            bonkers Voltz commercial that features weird, scary CG mannequins
-            instead of actual humans. Huh, it seems those mannequins were the
-            work of an artist named Eric So, so maybe that’s more of A Thing
-            than I realize.
-          </h1>
-        </div>
-        <div class="whatif">
-          <span>features</span>
-          <div class="whatifline"></div>
-          <h1 class="whatifh1">
-            The RHD interior seemed to pull more parts from the Matrix than
-            the Vibe, just to keep things nice and confusing. It’s all so
-            strange, and reveals so much about the inherent madness of badge
-            engineering. Because this strange ouroboros of a car is a Toyota
-            re-badged as a Pontiac re-badged as a Toyota. Has there ever been
-            another car to be badge-engineered back to its origin company
-            before? I don’t think so. So, everyone, take in the majestic
-            madness of the Toyota Voltz, and take some sort of lesson from its
-            example, somehow.
-          </h1>
-        </div>
-      </div>
-      <button class="joinbutton"><span>BECOME A MEMBER</span></button>
-    </div>
-  </div>
-
-  <section id="projects">
-    <h1 class="projects-section-title">Our Projects</h1>
-    <div class="projectinfodiv">
-      <div class="project-count">
-        <h1 class="project-count-h1">30+ Projects and Counting</h1>
-      </div>
-      <img src="static/images/Bot Dilemma.jpg" class="project-img1"></img>
-      <img src="static/images/TidePool.jpg" class="project-img2"></img>
-      <img src="static/images/CapsuleMap.jpg" class="project-img3"></img>
-      <img src="static/images/Memory Notes.jpg" class="project-img4"></img>
-      <img src="static/images/Cultivate.jpg" class="project-img5"></img>
-      <img src="static/images/ProFit.jpg" class="project-img6"></img>
-      <div class="projectinfo" projectnumber="1">
-        <span>don't know programming</span>
-        <div class="projectinfoline"></div>
-        <h1 class="projectinfoh1">
-          I’ll admit, I’m sort of amazed we haven’t covered this at the HMS
-          Jalopiesnick before, because this is precisely the kind of
-          automotive idiocy that gets all of my delight glands nice and
-          excorpulated. The car I want to tell you about isn’t a
-          particularly interesting car, but it was closely related to a
-          good, honest general-use car, the 2002 to 2004 Toyota Matrix. You
-          may also recall that the Toyota Corolla-platform’d Matrix was also
-          sold by GM, who built (at the joint Toyota-GM NUMMI plant) a
-          Pontiac-branded version called the Vibe. But did you know these
-          twins were actually triplets? The often-forgotten sibling is
-          called the Toyota Voltz, and it needs some explanation.
-        </h1>
-      </div>
-      <div class="projectinfo" projectnumber="2">
-        <span>other</span>
-        <div class="projectinfoline"></div>
-        <h1 class="projectinfoh1">
-          Despite the confusing name, the Voltz was not electric, well, no
-          more so than any other car that has spark plugs and a radio. The
-          Voltz was just like the Pontiac Vibe, a slightly re-styled and
-          very re-badged Toyota Matrix. Now I bet you’re already starting to
-          notice something weird going on here. The re-badged Toyota
-          was...badged as a...Toyota?
-        </h1>
-      </div>
-      <div class="projectinfo" projectnumber="3">
-        <span>quirks</span>
-        <div class="projectinfoline"></div>
-        <h1 class="projectinfoh1">
-          Yes, yes it was. And, even better, this re-badged Toyota was
-          actually a re-badge of the Pontiac, which was a re-badge of a
-          Toyota. I’ll give you a moment to mop up the brain-splatter from
-          your shirt and immediate area. For some deeply confusing reasons,
-          Toyota didn’t want to sell the Toyota Matrix in Japan, but they
-          were fine selling the mechanically-identical but re-styled Pontiac
-          Vibe there, only they couldn’t really sell it under the Pontiac
-          name there, since, you know, Toyota isn’t Pontiac, so they
-          re-badged the Vibe as the Toyota Voltz.
-        </h1>
-      </div>
-      <div class="projectinfo" projectnumber="4">
-        <span>and</span>
-        <div class="projectinfoline"></div>
-        <h1 class="projectinfoh1">
-          They didn’t change anything about the Vibe’s styling at all, so
-          all of the GM-designed body panels, even the Pontiac’s signature
-          split grille, remained. Hell, even the shape of the Pontiac logo
-          remained, just replaced with a similar Isosceles-triangle-shaped
-          badge, but this time a “V” for “Voltz” and definitely not “Vibe.”
-          Weirdly, this is the second time I can think of the Pontiac logo
-          shaped being replaced with another badge on an imported car sold
-          as a Pontiac. The Voltz was sold at Toyota’s Netz
-          dealerships/stores, part of Toyota’s kind of baffling
-          differentiation of models into different types of dealership
-          outlets that I think target different market segments, with Netz
-          seeming to skew younger. You can see the Netz branding in this
-          bonkers Voltz commercial that features weird, scary CG mannequins
-          instead of actual humans. Huh, it seems those mannequins were the
-          work of an artist named Eric So, so maybe that’s more of A Thing
-          than I realize.
-        </h1>
-      </div>
-      <div class="projectinfo" projectnumber="5">
-        <span>features</span>
-        <div class="projectinfoline"></div>
-        <h1 class="projectinfoh1">
-          The RHD interior seemed to pull more parts from the Matrix than
-          the Vibe, just to keep things nice and confusing. It’s all so
-          strange, and reveals so much about the inherent madness of badge
-          engineering. Because this strange ouroboros of a car is a Toyota
-          re-badged as a Pontiac re-badged as a Toyota. Has there ever been
-          another car to be badge-engineered back to its origin company
-          before? I don’t think so. So, everyone, take in the majestic
-          madness of the Toyota Voltz, and take some sort of lesson from its
-          example, somehow.
-        </h1>
-      </div>
-      <div class="projectinfo" projectnumber="6">
-        <span>Cars & Bids</span>
-        <div class="projectinfoline"></div>
-        <h1 class="projectinfoh1">
-          Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro Doug Demuro
-        </h1>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="footer-inner">
-      <div>
-        <h2 class="footer-title">CRHS IDEA</h2>
-        <p class="footer-sub">Lorem ipsum dolor sit amet.</p>
-        <p class="footer-sub2">Stay Curious.</p>
-      </div>
-      <div>
-        <h2 class="footer-sub2">Explore</h2>
-        <nav class="footer-nav">
-          <a class="footer-link" href="">Home</a>
-          <a class="footer-link" href="">Join</a>
-          <a class="footer-link" href="">Projects</a>
-          <a class="footer-link" href="">Members</a>
-          <a class="footer-link" href="">Contact</a>
+          <div class="nav-btns">
+            <a href="">PROJECTS</a>
+          </div>
+          <div class="nav-btns">
+            <a href="/members.html">MEMBERS</a>
+          </div>
+          <div class="nav-btns">
+            <a href="">CONTACT</a>
+          </div>
         </nav>
       </div>
+      <div class="nav-backfilter"></div>
+    </div>
 
-      <div>
-        <h2 class="footer-sub2">Join The Discord</h2>
-        <a href="https://discord.gg/U6qkBz9xZS" target="_blank">
-          <img class="footer-disc-logo" src="/static/svgs/discord-logo.svg" alt="discord" srcset="" />
-        </a>
+    <!-- swiper -->
+    <section class="swiper-section">
+      <div class="swiper-container" id="swiper-main">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" id="slide-1">
+            <div class="slide-text-wrap">
+              <h1
+                class="swiper-title"
+                data-swiper-parallax="40%"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-duration="1300"
+              >
+                What is IDEA?
+              </h1>
+              <p
+                class="swiper-paragraph"
+                data-swiper-parallax="10%"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-duration="1300"
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+                obcaecati cupiditate et dignissimos repellat officia earum quos
+                nesciunt vero perferendis?
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide" id="slide-2">
+            <div class="slide-text-wrap">
+              <h1
+                class="swiper-title"
+                data-swiper-parallax="40%"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-duration="1300"
+              >
+                Our Mission.
+              </h1>
+              <p
+                class="swiper-paragraph"
+                data-swiper-parallax="10%"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-duration="1300"
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+                obcaecati cupiditate et dignissimos repellat officia earum quos
+                nesciunt vero perferendis?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-nav-wrap">
+          <div class="custom-swiper-button-prev">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="swiper-nav-svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </div>
+          <div class="custom-swiper-button-next">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="swiper-nav-svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </div>
+        </div>
       </div>
-      <div>
-        <!-- for socials later -->
+    </section>
+
+    <section class="whatwedo-container">
+      <div class="whatwedo-inner">
+        <h1 class="whatwedo-title">What We Do</h1>
+        <div class="whatwedo-subsec">
+          <div>
+            <h3>BEGINNER LEARNING</h3>
+            <p>
+              We work with anyone who wants to get into coding to quickly get
+              them on the right track. Our teaching is fast-paced but fun.
+            </p>
+          </div>
+          <img
+            src="/static/test/Screen-Shot-2020-07-02-at-1.41.18-PM-orvzvrogmveb0s4k5zxrsi6c4vto0r0yl1sspnkqv4.png"
+            alt=""
+          />
+        </div>
+        <div class="whatwedo-subsec reverse">
+          <img
+            src="/static/test/Screen-Shot-2020-07-02-at-1.41.18-PM-orvzvrogmveb0s4k5zxrsi6c4vto0r0yl1sspnkqv4.png"
+            alt=""
+          />
+          <div>
+            <h3>COMPETITIVE PROGRAMMING</h3>
+            <p>
+              We participate in a variety of competitive programming contests
+              such as HP CodeWars or the US Computing Olympiad and prepare
+              students for these competitions.
+            </p>
+          </div>
+        </div>
+        <div class="whatwedo-subsec">
+          <div>
+            <h3>SOFTWARE DEVELOPMENT</h3>
+            <p>
+              We also have a focus on software development, preparing students
+              for real-world jobs. Students can learn mobile app development,
+              video game development, and even Artificial Intelligence.
+            </p>
+          </div>
+          <img
+            src="/static/test/Screen-Shot-2020-07-02-at-1.41.18-PM-orvzvrogmveb0s4k5zxrsi6c4vto0r0yl1sspnkqv4.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <div class="joinbox" id="join">
+      <div class="joinbox-inner">
+        <div class="jointext">Joining is Super Easy</div>
+        <div class="desctext">That's great, but what if I...</div>
+        <div class="whatifdiv">
+          <div class="whatif" onclick="onClickInfo()">
+            <span>don't know programming</span>
+            <div class="whatifline"></div>
+            <h1 class="whatifh1">
+              I’ll admit, I’m sort of amazed we haven’t covered this at the HMS
+              Jalopiesnick before, because this is precisely the kind of
+              automotive idiocy that gets all of my delight glands nice and
+              excorpulated. The car I want to tell you about isn’t a
+              particularly interesting car, but it was closely related to a
+              good, honest general-use car, the 2002 to 2004 Toyota Matrix. You
+              may also recall that the Toyota Corolla-platform’d Matrix was also
+              sold by GM, who built (at the joint Toyota-GM NUMMI plant) a
+              Pontiac-branded version called the Vibe. But did you know these
+              twins were actually triplets? The often-forgotten sibling is
+              called the Toyota Voltz, and it needs some explanation.
+            </h1>
+          </div>
+          <div class="whatif" onclick="onClickInfo()">
+            <span>other</span>
+            <div class="whatifline"></div>
+            <h1 class="whatifh1">
+              Despite the confusing name, the Voltz was not electric, well, no
+              more so than any other car that has spark plugs and a radio. The
+              Voltz was just like the Pontiac Vibe, a slightly re-styled and
+              very re-badged Toyota Matrix. Now I bet you’re already starting to
+              notice something weird going on here. The re-badged Toyota
+              was...badged as a...Toyota?
+            </h1>
+          </div>
+          <div class="whatif" onclick="onClickInfo()">
+            <span>quirks</span>
+            <div class="whatifline"></div>
+            <h1 class="whatifh1">
+              Yes, yes it was. And, even better, this re-badged Toyota was
+              actually a re-badge of the Pontiac, which was a re-badge of a
+              Toyota. I’ll give you a moment to mop up the brain-splatter from
+              your shirt and immediate area. For some deeply confusing reasons,
+              Toyota didn’t want to sell the Toyota Matrix in Japan, but they
+              were fine selling the mechanically-identical but re-styled Pontiac
+              Vibe there, only they couldn’t really sell it under the Pontiac
+              name there, since, you know, Toyota isn’t Pontiac, so they
+              re-badged the Vibe as the Toyota Voltz.
+            </h1>
+          </div>
+          <div class="whatif" onclick="onClickInfo()">
+            <span>and</span>
+            <div class="whatifline"></div>
+            <h1 class="whatifh1">
+              They didn’t change anything about the Vibe’s styling at all, so
+              all of the GM-designed body panels, even the Pontiac’s signature
+              split grille, remained. Hell, even the shape of the Pontiac logo
+              remained, just replaced with a similar Isosceles-triangle-shaped
+              badge, but this time a “V” for “Voltz” and definitely not “Vibe.”
+              Weirdly, this is the second time I can think of the Pontiac logo
+              shaped being replaced with another badge on an imported car sold
+              as a Pontiac. The Voltz was sold at Toyota’s Netz
+              dealerships/stores, part of Toyota’s kind of baffling
+              differentiation of models into different types of dealership
+              outlets that I think target different market segments, with Netz
+              seeming to skew younger. You can see the Netz branding in this
+              bonkers Voltz commercial that features weird, scary CG mannequins
+              instead of actual humans. Huh, it seems those mannequins were the
+              work of an artist named Eric So, so maybe that’s more of A Thing
+              than I realize.
+            </h1>
+          </div>
+          <div class="whatif" onclick="onClickInfo()">
+            <span>features</span>
+            <div class="whatifline"></div>
+            <h1 class="whatifh1">
+              The RHD interior seemed to pull more parts from the Matrix than
+              the Vibe, just to keep things nice and confusing. It’s all so
+              strange, and reveals so much about the inherent madness of badge
+              engineering. Because this strange ouroboros of a car is a Toyota
+              re-badged as a Pontiac re-badged as a Toyota. Has there ever been
+              another car to be badge-engineered back to its origin company
+              before? I don’t think so. So, everyone, take in the majestic
+              madness of the Toyota Voltz, and take some sort of lesson from its
+              example, somehow.
+            </h1>
+          </div>
+        </div>
+        <button class="joinbutton"><span>BECOME A MEMBER</span></button>
       </div>
     </div>
-  </footer>
 
-  <!-- custom JS -->
-  <script src="assets/js/projectsSwiper.js"></script>
-  <script src="assets/js/heroSwiper.js"></script>
-  <script src="assets/js/nav.js"></script>
+    <section id="projects">
+      <h1 class="projects-section-title">Our Projects</h1>
+      <div class="projects-scrollbar-container">
+        <div class="projects-inner">
+          <div class="swiper-container" id="swiper-projects">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide projects-card">
+                <img
+                  class="project-img"
+                  src="/static/images/Greenway.jpg"
+                  alt=""
+                />
+                <h1 class="project-title">GREENWAY</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img
+                  class="project-img"
+                  src="/static/images/TidePool.jpg"
+                  alt=""
+                />
+                <h1 class="project-title">TIDEPOOL</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img
+                  class="project-img"
+                  src="/static/images/CapsuleMap.jpg"
+                  alt=""
+                />
+                <h1 class="project-title">CAPSULEMAP</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img
+                  class="project-img"
+                  src="/static/images/MemoryNotes.jpg"
+                  alt=""
+                />
+                <h1 class="project-title">MEMORYNOTES</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img
+                  class="project-img"
+                  src="/static/images/Cultivate.jpg"
+                  alt=""
+                />
+                <h1 class="project-title">CULTIVATE</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img
+                  class="project-img"
+                  src="/static/images/ProFit.jpg"
+                  alt=""
+                />
+                <h1 class="project-title">PROFIT</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img
+                  class="project-img"
+                  src="/static/images/BotDilemma.jpg"
+                  alt=""
+                />
+                <h1 class="project-title">BOTDILEMMA</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img
+                  class="project-img"
+                  src="/static/images/SkillQuest.jpg"
+                  alt=""
+                />
+                <h1 class="project-title">SKILLQUEST</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img
+                  class="project-img"
+                  src="/static/images/Climate Change Central.jpg"
+                  alt=""
+                />
+                <h1 class="project-title">CLIMATE CHANGE CENTRAL</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img
+                  class="project-img"
+                  src="/static/images/Open-Sourced Olafs Pod Site.jpg"
+                  alt=""
+                />
+                <h1 class="project-title">OPEN-SOURCED OLAFS POD SITE</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img
+                  class="project-img"
+                  src="/static/images/HealthID.jpg"
+                  alt=""
+                />
+                <h1 class="project-title">HEALTHID</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+              <div class="swiper-slide projects-card">
+                <img
+                  class="project-img"
+                  src="/static/images/Trash on the Map.jpg"
+                  alt=""
+                />
+                <h1 class="project-title">TRASH ON THE MAP</h1>
+                <p class="project-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, incidunt.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="projects-swiper-scrollbar"></div>
+      </div>
+    </section>
 
-  <!-- cdns -->
-  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-</body>
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>
+          <h2 class="footer-title">CRHS IDEA</h2>
+          <p class="footer-sub">Lorem ipsum dolor sit amet.</p>
+          <p class="footer-sub2">Stay Curious.</p>
+        </div>
+        <div>
+          <h2 class="footer-sub2">Explore</h2>
+          <nav class="footer-nav">
+            <a class="footer-link" href="">Home</a>
+            <a class="footer-link" href="">Join</a>
+            <a class="footer-link" href="">Projects</a>
+            <a class="footer-link" href="">Members</a>
+            <a class="footer-link" href="">Contact</a>
+          </nav>
+        </div>
 
+        <div>
+          <h2 class="footer-sub2">Join The Discord</h2>
+          <a href="https://discord.gg/U6qkBz9xZS" target="_blank">
+            <img
+              class="footer-disc-logo"
+              src="/static/svgs/discord-logo.svg"
+              alt="discord"
+              srcset=""
+            />
+          </a>
+        </div>
+        <div>
+          <!-- for socials later -->
+        </div>
+      </div>
+    </footer>
+
+    <!-- custom JS -->
+    <script src="assets/js/projectsSwiper.js"></script>
+    <script src="assets/js/heroSwiper.js"></script>
+    <script src="assets/js/nav.js"></script>
+
+    <!-- cdns -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </body>
 </html>
