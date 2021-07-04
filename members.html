@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="/assets/css/global.css" />
     <link rel="stylesheet" href="/assets/css/nav.css" />
     <link rel="stylesheet" href="/assets/css/footer.css" />
+    <link rel="stylesheet" href="/assets/css/hackathons.css" />
+    <link rel="stylesheet" href="/assets/css/coursedocs.css" />
+    <link rel="stylesheet" href="/assets/css/calendar.css" />
   </head>
   <body>
     <div class="nav-placeholder"></div>
@@ -18,9 +21,17 @@
     </div>
     <div class="mobile-bottom-nav nav-hidden">
       <ul class="mobile-list">
-        <img src="/static/svgs/home.svg" alt="home" class="mobile-icon" />
+        <a href="/">
+          <img src="/static/svgs/home.svg" alt="home" class="mobile-icon" />
+        </a>
         <img src="/static/svgs/clipboard.svg" alt="home" class="mobile-icon" />
-        <img src="/static/svgs/checkbadge.svg" alt="home" class="mobile-icon" />
+        <a href="members.html">
+          <img
+            src="/static/svgs/checkbadge.svg"
+            alt="home"
+            class="mobile-icon"
+          />
+        </a>
         <img src="/static/svgs/mail.svg" alt="home" class="mobile-icon" />
       </ul>
     </div>
@@ -28,7 +39,7 @@
       <div class="nav-content">
         <div class="logo-wrap">
           <img src="static/images/logo1.png" alt="Return Home" class="logo" />
-          <h1 class="logotext">IDEA MEMEBERS</h1>
+          <h1 class="logotext">IDEA MEMBERS</h1>
         </div>
         <nav class="nav-links">
           <div class="nav-btns">
@@ -52,10 +63,146 @@
     </div>
 
     <!-- calendar -->
+    <hr id="top-line" />
+    <div id="calendar-section">
+      <div id="calendar-frame">
+        <iframe
+          src="https://calendar.google.com/calendar/embed?src=crhsidea%40gmail.com&ctz=America%2FChicago"
+          id="calendar"
+          style="border: 0"
+          frameborder="0"
+          scrolling="no"
+        ></iframe>
+      </div>
+    </div>
 
     <!-- hackathon schedule -->
+    <section class="hackathons-container">
+      <div class="inner">
+        <h1>Hackathon Schedule 2021</h1>
+        <div class="content">
+          <div>
+            <span class="hack-name">Nov - Hackathon Name</span>
+            <p class="hack-info">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+              velit?
+            </p>
+          </div>
+          <div>
+            <span class="hack-name">Nov - Hackathon Name</span>
+            <p class="hack-info">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+              velit?
+            </p>
+          </div>
+          <div>
+            <span class="hack-name">Nov - Hackathon Name</span>
+            <p class="hack-info">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+              velit?
+            </p>
+          </div>
+          <div>
+            <span class="hack-name">Nov - Hackathon Name</span>
+            <p class="hack-info">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+              velit?
+            </p>
+          </div>
+          <div>
+            <span class="hack-name">Nov - Hackathon Name</span>
+            <p class="hack-info">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+              velit?
+            </p>
+          </div>
+          <div>
+            <span class="hack-name">Nov - Hackathon Name</span>
+            <p class="hack-info">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+              velit?
+            </p>
+          </div>
+          <div>
+            <span class="hack-name">Nov - Hackathon Name</span>
+            <p class="hack-info">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+              velit?
+            </p>
+          </div>
+          <div>
+            <span class="hack-name">Nov - Hackathon Name</span>
+            <p class="hack-info">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+              velit?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- course docs -->
+    <section class="coursedocs-container">
+      <div class="inner">
+        <h1>Course Docs</h1>
+
+        <div class="content-wrap">
+          <div class="content-padding">
+            <h3>Languages</h3>
+            <div class="doc">
+              <h4>Java</h4>
+              <h5>Prerequisites: None</h5>
+            </div>
+            <div class="doc">
+              <h4>HTML</h4>
+              <h5>Prerequisites: None</h5>
+            </div>
+            <div class="doc">
+              <h4>CSS</h4>
+              <h5>Prerequisites: HTML</h5>
+            </div>
+            <div class="doc">
+              <h4>Javascript</h4>
+              <h5>Prerequisites: CSS (Level 2)</h5>
+            </div>
+
+            <h3>Mobile</h3>
+            <div class="doc">
+              <h4>Android</h4>
+              <h5>Prerequisites: Java (Level 2)</h5>
+            </div>
+            <div class="doc">
+              <h4>Flutter</h4>
+              <h5>Prerequisites: Any Language (Level 2)</h5>
+            </div>
+
+            <h3>Web</h3>
+            <div class="doc">
+              <h4>Express.js</h4>
+              <h5>Prerequisites: Javascript (Level 2)</h5>
+            </div>
+            <div class="doc">
+              <h4>Database</h4>
+              <h5>Prerequisites: Any Language (Level 2)</h5>
+            </div>
+            <div class="doc">
+              <h4>React</h4>
+              <h5>Prerequisites: HTMl, CSS, and Any Language (Level 2)</h5>
+            </div>
+            <div class="doc">
+              <h4>Django</h4>
+              <h5>Python (Level 2)</h5>
+            </div>
+
+            <h3>Voice</h3>
+            <div class="doc">
+              <h4>Alexa</h4>
+              <h5>Prerequisites: Any Language</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <footer class="footer">
       <div class="footer-inner">
