@@ -76,7 +76,7 @@
 }
 
 #slide-1 {
-  background-image: url("/static/test/5083649.jpg");
+  background-image: url("/static/images/5083649.jpg");
   background-position: right center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -90,7 +90,7 @@
 }
 
 #slide-2 {
-  background-image: url("/static/test/19691.jpg");
+  background-image: url("/static/images/19691.jpg");
   background-position: right center;
   background-size: cover;
   background-repeat: no-repeat;

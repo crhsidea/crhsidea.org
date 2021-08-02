@@ -1,0 +1,12 @@
+.what-container {
+  width: 100vw;
+  min-height: 250px;
+  height: 20vh;
+  background-color: var(--punch);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Montserrat";
+  justify-items: center;
+  align-items: center;
+  color: #fff;
+}
